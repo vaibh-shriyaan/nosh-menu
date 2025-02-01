@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -5,7 +6,6 @@
     <meta name="theme-color" content="#0B3939" />
     <title>Nosh-menu</title>
     <link rel="icon" href="assets/nosh.ico" type="image/x-icon" />
-    <link rel="preload" href="assets/nosh-menu01-images-0.jpg" as="image" />
     <style>
       body {
         margin: 0;
@@ -13,72 +13,26 @@
         height: 100dvh;
         background-color: #f7f7f7;
       }
-
-      .image-container {
+      div {
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
         justify-content: center;
         align-items: center;
         overflow-y: scroll;
         height: 100dvh;
       }
-
-      img {
-        object-fit: contain;
-        max-width: 100%;
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
       }
     </style>
   </head>
   <body>
-    <div class="image-container">
-      <img src="assets/nosh-menu01-images-0.jpg" alt="Menu Page 1" />
-      <img src="assets/nosh-menu01-images-1.jpg" alt="Menu Page 2" />
-      <img src="assets/nosh-menu01-images-2.jpg" alt="Menu Page 3" />
-      <img src="assets/nosh-menu01-images-3.jpg" alt="Menu Page 4" />
-      <img src="assets/nosh-menu01-images-4.jpg" alt="Menu Page 5" />
-      <img src="assets/nosh-menu01-images-5.jpg" alt="Menu Page 6" />
-      <img src="assets/nosh-menu01-images-6.jpg" alt="Menu Page 7" />
-      <img src="assets/nosh-menu01-images-7.jpg" alt="Menu Page 8" />
-      <img
-        src="assets/nosh-menu01-images-8.jpg"
-        alt="Menu Page 9"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-9.jpg"
-        alt="Menu Page 10"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-10.jpg"
-        alt="Menu Page 11"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-11.jpg"
-        alt="Menu Page 12"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-12.jpg"
-        alt="Menu Page 13"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-13.jpg"
-        alt="Menu Page 14"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-14.jpg"
-        alt="Menu Page 15"
-        loading="lazy"
-      />
-      <img
-        src="assets/nosh-menu01-images-15.jpg"
-        alt="Menu Page 16"
-        loading="lazy"
-      />
+    <div>
+      <iframe src="assets/nosh-menu01.pdf#toolbar=0"></iframe>
     </div>
   </body>
 </html>
